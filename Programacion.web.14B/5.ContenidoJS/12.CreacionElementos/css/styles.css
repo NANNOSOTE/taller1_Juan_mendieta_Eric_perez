@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seccion_1{
+    background-color: tomato;
+}
+.seccion_2{
+    background-color: cadetblue;
+}
+.seccion_3{
+    background-color: sienna;
+}

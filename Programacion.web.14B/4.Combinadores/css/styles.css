@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*5.Selector por atributo*/
+[class]{
+/*Se aplicara a todos los atributos class*/ 
+    font-size: 26px;
+}
+a[href]{
+    color: chocolate;
+}
+
+/*Utilizando sufijos*/
+a[href$="o" ]{
+    color: green;
+}
+/*Prefijo*/
+article[class*="art"]{
+    margin-top: 15%;
+}

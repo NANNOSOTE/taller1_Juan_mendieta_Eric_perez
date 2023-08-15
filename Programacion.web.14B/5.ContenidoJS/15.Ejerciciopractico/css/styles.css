@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_cant{
+    background-color: aquamarine;
+    color: blue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 20px;
+    
+}

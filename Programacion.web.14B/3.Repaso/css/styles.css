@@ -1,0 +1,55 @@
+/*
+    Seleccionar elementos del DOM
+    1. Por id,cada etiqueta si quiero seleccionarla por id debe tener un id="contenedor"
+    2. Por clase, se debe establecer un valor en el atributo de la etiqueta class="contenedor"."
+    3. Por etiqueta, se seleccionan todas las etiquetas y se aplica el estilo body, h1, section, div
+    4. * Selector universal
+    ¿Qué es CSS? (Cascading Style Sheets)
+    Es un lenguaje aliado para HTML que nos permite dar formato o formatear de manera agradable los documentos de tipo HTML, es decir un lenguaje de estilos
+
+    Sintaxis:
+
+    selector{
+        atribut:valor;
+    */
+*{/*Selector universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{/* Selector por etiqueta*/
+    height: 100vh;
+}
+.img_warzone{/*selector por class*/
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+#footer{
+    background-color: tomato;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Agrupacion de selectores*/
+h1,p,#footer{
+    text-align: right;
+}
+/*About*/
+.seccion{
+    width: 32%;
+    display: inline-block;
+}
+.div1{
+    border: 3px dotted red;
+}
+.div2{
+    border: 3px double purple;
+}
+.div3{
+    border: 3px none red;
+    border-style: none none solid solid ;
+}
+.h1_about{
+    text-align: center;
+}
